@@ -1,0 +1,41 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('sunset.jpg') no-repeat center center/cover; /* Gambar memenuhi layar */
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+} 
+
+/* Login card styling */
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+.card h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Dashboard page styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+canvas {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+}
+
+/* Logout button */
+#logoutButton {
+    border-radius: 5px;
+}
